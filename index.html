@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tony's Responsive Portfolio</title>
+
+        <!--==================== FAVICON ====================-->
+        <link rel="icon" type="image/png" href="./assets/img/logo-1.png" />
+
+        <!--==================== BOOTSTRAP CSS ====================-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+
+        <!--==================== AOS ====================-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!--==================== FONT-AWESOME JS ====================-->
+        <script
+            src="https://kit.fontawesome.com/dc21c76de2.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+        >
+            <!-- Navbar -->
+            <nav
+                class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top"
+            >
+                <div class="container-fluid">
+                    <a
+                        class="navbar-brand fw-bold fs-4"
+                        href="http://127.0.0.1:5500/home.html"
+                    >
+                        <img
+                            alt="image"
+                            src="./assets/img/logo-1.svg"
+                            height="50"
+                            class="p-2"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#home"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Projects
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Project 1</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Project 2</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Project 3</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#coffee"
+                                    >Buy Me A Coffee</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!-- Home Section-->
+            <section id="home" class="my-5 py-5" data-aos="zoom-in">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-8 col-md-4 align-self-center">
+                            <svg
+                                viewBox="0 0 200 200"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <mask id="mask0" mask-type="alpha">
+                                    <path
+                                        fill="#8A3FFC"
+                                        d="M66.2,-34.7C78.4,-17.2,75.6,12.4,62.1,31.2C48.6,49.9,24.3,57.8,4.6,55.1C-15.1,52.4,-30.1,39.3,-43.8,20.4C-57.5,1.6,-69.8,-22.9,-62.3,-37.8C-54.7,-52.6,-27.4,-57.9,-0.2,-57.8C27,-57.7,54.1,-52.2,66.2,-34.7Z"
+                                        transform="translate(100 100)"
+                                    />
+                                </mask>
+
+                                <g mask="url(#mask0)">
+                                    <path
+                                        fill="#8A3FFC"
+                                        d="M66.2,-34.7C78.4,-17.2,75.6,12.4,62.1,31.2C48.6,49.9,24.3,57.8,4.6,55.1C-15.1,52.4,-30.1,39.3,-43.8,20.4C-57.5,1.6,-69.8,-22.9,-62.3,-37.8C-54.7,-52.6,-27.4,-57.9,-0.2,-57.8C27,-57.7,54.1,-52.2,66.2,-34.7Z"
+                                        transform="translate(100 100)"
+                                    />
+                                    <image
+                                        width="90"
+                                        xlink:href="./assets/img/Tony-1.png"
+                                        class="profile-image"
+                                        x="70"
+                                        y="50"
+                                    />
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div
+                            class="
+                                col-10 col-md-4
+                                align-self-center
+                                text-center
+                            "
+                        >
+                            <div>
+                                <h1 class="big-bold-text">
+                                    Hi
+                                    <span class="wave-emoji">👋</span>
+                                </h1>
+                                <h1 class="big-bold-text">
+                                    I am
+                                    <span class="text-primary">Tony</span>
+                                </h1>
+
+                                <p class="text-muted">
+                                    A full-stack web developer.
+                                </p>
+
+                                <!-- <div class="typewriter mb-3">
+                                    <p class="typing-erase text-muted">
+                                        A full-stack web dev.
+                                    </p>
+                                </div> -->
+                            </div>
+
+                            <div>
+                                <a
+                                    class="
+                                        btn btn-primary
+                                        mb-4
+                                        text-decoration-none
+                                    "
+                                    href="#contact"
+                                    >Contact Me
+                                    <i class="fas fa-paper-plane"></i
+                                ></a>
+                            </div>
+
+                            <div>
+                                <a
+                                    href="www.linkedin.com/in/tonymike99"
+                                    class="text-reset me-2"
+                                >
+                                    <i class="fab fa-linkedin fa-lg"></i
+                                ></a>
+                                <a
+                                    href="https://github.com/tonymike99/"
+                                    class="text-reset mx-2"
+                                    ><i class="fab fa-github fa-lg"></i
+                                ></a>
+                                <a
+                                    href="https://stackoverflow.com/users/15880393/tony-mike"
+                                    class="text-reset mx-2"
+                                    ><i class="fab fa-stack-overflow"></i
+                                ></a>
+                                <a
+                                    href="https://facebook.com/profile.php?id=100009973660727"
+                                    class="text-reset mx-2"
+                                    ><i class="fab fa-facebook fa-lg"></i
+                                ></a>
+                                <a
+                                    href="https://instagram.com/tonymike99"
+                                    class="text-reset mx-2"
+                                    ><i
+                                        class="fab fa-instagram-square fa-lg"
+                                    ></i
+                                ></a>
+                                <a
+                                    href="https://twitter.com/tonymike07"
+                                    class="text-reset ms-2"
+                                    ><i class="fab fa-twitter-square fa-lg"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section-->
+            <section id="about" class="my-5 py-5" data-aos="zoom-out">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h1>About Me</h1>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-6 m-auto">
+                            <p class="text-muted">
+                                Henlo hooman. <br />
+                                My name is Tony Mike Auxen and I'm based out of
+                                Bangalore. <br />
+                                I am currently working as a software developer
+                                at Siemens Healthineers, where I am working on
+                                JavaScript.
+                                <br />
+                                I love coding and I wish to make a career in the
+                                field of full-stack Web development. <br />
+                                Apart from coding, I love playing football and
+                                reading articles.
+                                <br />
+                                I also love dogs, but unfortunately I don't have
+                                one.
+                            </p>
+
+                            <a href="#contact" class="btn btn-primary"
+                                >Download CV <i class="fas fa-download"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section-->
+            <section id="skills" class="my-5 py-5" data-aos="zoom-out">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h1>Skills</h1>
+                        </div>
+                    </div>
+
+                    <div class="row text-center justify-content-center">
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-html5 fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-css3-alt fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-bootstrap fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-js fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-git fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-react fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-node fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-npm fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-docker fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-java fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-python fa-5x"></i>
+                        </div>
+
+                        <div class="col-3 col-md-2 pb-5 pt-lg-0">
+                            <i class="fab fa-aws fa-5x"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to action Section -->
+            <section class="my-5 py-5" data-aos="zoom-out">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8 text-center">
+                            <div class="">
+                                <h1>Do you have any new project?</h1>
+                                <p class="text-muted">
+                                    I'm currently available for work.
+                                </p>
+                                <a
+                                    class="
+                                        btn btn-primary
+                                        mb-3
+                                        text-decoration-none
+                                    "
+                                    href="#contact"
+                                    >Contact Me
+                                    <i class="fas fa-paper-plane"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Me Section-->
+            <section id="contact" class="my-5 py-5" data-aos="zoom-out">
+                <div class="container-fluid">
+                    <div class="row text-center justify-content-center">
+                        <div class="col-12 col-md-9 col-lg-7">
+                            <h1>Contact Me</h1>
+                            <p class="text-muted">
+                                Feel free to get in touch with me.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                            <form
+                                action="https://formspree.io/f/mknkelpr"
+                                method="POST"
+                            >
+                                <div class="row">
+                                    <div class="col-12 col-md">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="Name"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-12 col-md mt-4 mt-md-0">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="Email"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            placeholder="Subject"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col">
+                                        <textarea
+                                            class="form-control"
+                                            name="message"
+                                            rows="3"
+                                            placeholder="Message"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col text-center">
+                                        <button
+                                            class="btn btn-primary"
+                                            type="submit"
+                                        >
+                                            Send Message
+                                            <span>
+                                                <i
+                                                    class="fas fa-paper-plane"
+                                                ></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buy me a coffee Section-->
+            <section id="coffee" class="my-5 py-5" data-aos="zoom-out">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8 text-center">
+                            <div class="">
+                                <h1>Buy me a coffee?</h1>
+                                <p class="text-muted">
+                                    To make me happy, <br />
+                                    make me coffee, <br />
+                                    buy me coffee, <br />
+                                    be coffee, <br />
+                                    ...coffee. <br />
+                                    ☕
+                                </p>
+                                <form>
+                                    <script
+                                        src="https://checkout.razorpay.com/v1/payment-button.js"
+                                        data-payment_button_id="pl_I8SoVtaGJT7QEI"
+                                        async
+                                    ></script>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+
+        <hr style="color: rgb(175, 206, 252)" />
+
+        <footer class="footer-small" data-aos="zoom-in">
+            <div class="container-fluid">
+                <div class="row text-center align-items-center mb-2">
+                    <div class="col-12 col-lg-2 text-lg-left pb-4">
+                        <a href="http://127.0.0.1:5500/home.html">
+                            <img
+                                alt="image"
+                                src="./assets/img/logo-1.svg"
+                                height="100"
+                            />
+                        </a>
+                    </div>
+
+                    <div class="col text-center">
+                        <div class="col text-center">
+                            Designed and Developed with 💓 by Tony.
+                        </div>
+
+                        <div class="col text-center">
+                            © 2021 Mikey. All Rights Reserved.
+                        </div>
+                    </div>
+
+                    <!-- <div class="col mt-4 mt-lg-0 text-center">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"
+                                    >Contact Me</a
+                                >
+                            </li>
+                        </ul>
+                    </div> -->
+
+                    <div class="col-12 col-lg-2 mt-4 mt-lg-0 text-lg-right">
+                        <a
+                            href="www.linkedin.com/in/tonymike99"
+                            class="text-reset mx-2"
+                        >
+                            <i class="fab fa-linkedin fa-lg"></i
+                        ></a>
+                        <a
+                            href="https://github.com/tonymike99/"
+                            class="text-reset mx-2"
+                            ><i class="fab fa-github fa-lg"></i
+                        ></a>
+                        <a
+                            href="https://stackoverflow.com/users/15880393/tony-mike"
+                            class="text-reset mx-2"
+                            ><i class="fab fa-stack-overflow"></i
+                        ></a>
+                        <a
+                            href="https://facebook.com/profile.php?id=100009973660727"
+                            class="text-reset mx-2"
+                            ><i class="fab fa-facebook fa-lg"></i
+                        ></a>
+                        <a
+                            href="https://instagram.com/tonymike99"
+                            class="text-reset mx-2"
+                            ><i class="fab fa-instagram-square fa-lg"></i
+                        ></a>
+                        <a
+                            href="https://twitter.com/tonymike07"
+                            class="text-reset mx-2"
+                            ><i class="fab fa-twitter-square fa-lg"></i
+                        ></a>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col text-center">
+                        <script
+                            type="text/javascript"
+                            src="https://freehitcounters.org/count/9jt2"
+                        ></script>
+                        <br />
+                        <!-- <a
+                            class="text-decoration-none"
+                            href="http://www.counter-zaehler.de"
+                            >Visitors
+                        </a>
+                        <script
+                            type="text/javascript"
+                            src="https://whomania.com/ctr?id=13778372902220010091701afa58f3cd53bb0db4"
+                        ></script> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--==================== BOOTSTRAP JS ====================-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"
+        ></script>
+
+        <!--==================== SCRIPT JS ====================-->
+        <script src="./assets/js/script.js"></script>
+
+        <!--==================== AOS ====================-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
